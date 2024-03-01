@@ -91,6 +91,10 @@ footer {
     margin: 20px;
 }
 
+.product-list h1 {
+    font-size: 30px;
+}
+
 .product-list table {
     margin: auto;
     width: 100%;
@@ -130,7 +134,7 @@ footer {
     font-weight: bold;
 }
 
-.product button {
+.product button, .cart-item button {
     background-color: #4CAF50;
     color: white;
     border-radius: 5px;
@@ -158,6 +162,17 @@ footer {
         padding: 10px;
         margin: 10px;
     }
+}
+
+/* Shopping Cart */
+
+.shopping-cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cart-item {
 }
 
 /* Contact Page */
