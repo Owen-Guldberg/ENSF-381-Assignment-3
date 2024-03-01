@@ -248,3 +248,9 @@ footer {
 .login-form .signup-link:hover {
     text-decoration: underline;
 }
+
+.message-box {
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid;
+}
