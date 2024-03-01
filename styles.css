@@ -93,6 +93,7 @@ footer {
 
 .product-list table {
     margin: auto;
+    width: 100%;
     border-collapse: collapse;
 }
 
