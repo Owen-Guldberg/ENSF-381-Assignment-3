@@ -143,6 +143,15 @@ footer {
     margin: 10px;
 }
 
+.product button:hover, .cart-item button:hover {
+    background-color: #45A049;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+}
+
 @media screen and (min-width: 769px) {
     .product {
         padding: 20px;
@@ -170,9 +179,6 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.cart-item {
 }
 
 /* Contact Page */
@@ -230,7 +236,7 @@ footer {
 }
 
 .login-form button:hover {
-    background-color: #4CA049;
+    background-color: #45A049;
     opacity: 1.0;
 }
 
