@@ -143,13 +143,12 @@ footer {
     margin: 10px;
 }
 
-.product button:hover, .cart-item button:hover {
+.product button:hover {
     background-color: #45A049;
-    color: white;
-    border-radius: 5px;
-    border: none;
-    padding: 10px;
-    margin: 10px;
+}
+
+.cart-item button:hover {
+    background-color: #ff0000;
 }
 
 @media screen and (min-width: 769px) {
